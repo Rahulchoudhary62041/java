@@ -1,0 +1,8 @@
+class Odd{
+    public static void main(String[]args){
+        System.out.println("Odd numbers between 50 and 100 are:");
+        for (int i = 51; i < 100; i += 2) {
+            System.out.print(i + " ");
+        }
+    }
+}
