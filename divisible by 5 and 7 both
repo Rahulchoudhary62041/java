@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Divisible{
+    public static void main(String[]args){
+        int n;
+        System.out.print(" enter any number");
+        Scanner r=new Scanner(System.in);
+        n=r.nextInt();
+        if(n%5==0 && n%7==0) {
+            System.out.print("dividible by 5 a d 7 both");
+
+        }
+        else{
+            System.out.print("not divisible by 5 and 7 both");
+        }
+    }
+}
