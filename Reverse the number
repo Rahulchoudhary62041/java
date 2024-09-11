@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Divisible{
+
+    public static void main(String[] args) {
+        int number;
+        int reversed = 0;
+    System.out.print("enter any number");
+    Scanner r=new Scanner(System.in);
+    number=r.nextInt();
+        while (number != 0) {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+            number /= 10;
+        }
+
+        System.out.println("Reversed Number: " + reversed);
+    }
+}
